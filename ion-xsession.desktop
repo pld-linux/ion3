@@ -8,3 +8,4 @@ Comment=A keyboard-friendly window manager with tiled windows, based on PWM
 Comment[nl]=een toetsenbordvriendelijke window manager met getegelde vensters. Gebaseerd op PWM
 Comment[sr]=Пријатељски према тастауру менаџер прозора са наслаганим прозорима, заснован на PWM-у
 Comment[sv]=En tangentbordsvänlig fönsterhanterare med fönster sida vid sida, baserad på PWM
+# vi: encoding=utf-8
