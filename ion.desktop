@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Ion
+Comment=Ion - an X11 window manager
+Comment[pl]=Ion - mened¿er okien dla X11
+Exec=ion
+Terminal=False
+TryExec=blackbox
+
+[Window Manager]
+SessionManaged=true
+# vi: encoding=utf-8
