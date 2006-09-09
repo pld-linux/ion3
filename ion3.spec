@@ -13,10 +13,10 @@ URL:		http://iki.fi/tuomov/ion/
 BuildRequires:	XFree86-devel
 BuildRequires:	libltdl-devel
 BuildRequires:	libtool >= 1.4.3
-BuildRequires:	lua50 >= 5.0.2-2
-BuildRequires:	lua50-devel >= 5.0.2-2
-#BuildRequires:	autoconf
-#BuildRequires:	automake
+BuildRequires:	lua51 
+BuildRequires:	lua51-devel 
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_wmpropsdir	/usr/share/wm-properties
