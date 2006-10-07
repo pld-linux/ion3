@@ -1,22 +1,22 @@
 Summary:	A tiling tabbed X11 window manager
 Summary(pl):	Zarz±dca okien dla X11
-Name:		ion
+Name:		ion3
 Version:	20060524
 Release:	1
 License:	LGPL
 Group:		X11/Window Managers
-Source0:	http://modeemi.fi/~tuomov/ion/dl/%{name}-3ds-%{version}.tar.gz
+Source0:	http://modeemi.fi/~tuomov/ion/dl/ion-3ds-%{version}.tar.gz
 # Source0-md5:	d7d98baa41635c1989e423adf76eb2ac
-Source1:	%{name}.desktop
-Source2:	%{name}-xsession.desktop
+Source1:	ion.desktop
+Source2:	ion-xsession.desktop
 URL:		http://iki.fi/tuomov/ion/
 BuildRequires:	XFree86-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libltdl-devel
 BuildRequires:	libtool >= 1.4.3
 BuildRequires:	lua51 
 BuildRequires:	lua51-devel 
-BuildRequires:	autoconf
-BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_wmpropsdir	/usr/share/wm-properties
@@ -30,7 +30,7 @@ Ion jest zarz±dc± okien, obs³ugiwanym prawie wy³±cznie z klawiatury.
 Jest szybki i zajmuje ma³o zasobów.
 
 %prep
-%setup -q -n %{name}-3ds-%{version}
+%setup -q -n ion-3ds-%{version}
 
 %build
 %{__aclocal}
