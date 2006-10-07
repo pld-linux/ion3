@@ -5,7 +5,8 @@ Version:	20060524
 Release:	1
 License:	LGPL
 Group:		X11/Window Managers
-Source0:	http://modeemi.fi/~tuomov/ion/dl/ion-3ds-%{version}.tar.gz
+#Source0Download: http://modeemi.fi/~tuomov/ion/download.html
+Source0:	http://iki.fi/tuomov/dl/ion-3ds-%{version}.tar.gz
 # Source0-md5:	d7d98baa41635c1989e423adf76eb2ac
 Source1:	ion.desktop
 Source2:	ion-xsession.desktop
