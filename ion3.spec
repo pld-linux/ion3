@@ -1,5 +1,5 @@
 Summary:	A tiling tabbed X11 window manager
-Summary(pl):	Zarz±dca okien dla X11
+Summary(pl.UTF-8):   ZarzÄ…dca okien dla X11
 Name:		ion3
 Version:	20060524
 Release:	1
@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Ion is a keyboard-friendly X11 window manager. It is fast and takes up
 little resources.
 
-%description -l pl
-Ion jest zarz±dc± okien, obs³ugiwanym prawie wy³±cznie z klawiatury.
-Jest szybki i zajmuje ma³o zasobów.
+%description -l pl.UTF-8
+Ion jest zarzÄ…dcÄ… okien, obsÅ‚ugiwanym prawie wyÅ‚Ä…cznie z klawiatury.
+Jest szybki i zajmuje maÅ‚o zasobÃ³w.
 
 %prep
 %setup -q -n ion-3ds-%{version}
