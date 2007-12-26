@@ -1,12 +1,10 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Ion
 Comment=A tiling tabbed X11 window manager
 Comment[pl]=Zarządca okien dla X11
 Exec=ion
 Terminal=False
 TryExec=ion
-
 [Window Manager]
 SessionManaged=true
 # vi: encoding=utf-8
