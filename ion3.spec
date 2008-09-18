@@ -2,7 +2,7 @@ Summary:	A tiling tabbed X11 window manager
 Summary(pl.UTF-8):	Zarządca okien dla X11
 Name:		ion3
 Version:	20060524
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Window Managers
 #Source0Download: http://modeemi.fi/~tuomov/ion/download.html
@@ -18,9 +18,10 @@ BuildRequires:	libltdl-devel
 BuildRequires:	libtool >= 1.4.3
 BuildRequires:	lua51 
 BuildRequires:	lua51-devel 
+Conflicts:	filesystem < 3.0-20
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_wmpropsdir	/usr/share/wm-properties
+%define		_wmpropsdir	/usr/share/gnome/wm-properties
 
 %description
 Ion is a keyboard-friendly X11 window manager. It is fast and takes up
